@@ -1,0 +1,27 @@
+.transactionTable {
+  width: 600px;
+  margin: 0 auto 50px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.transactionTable th,
+.transactionTable td {
+  border: 1px solid #000;
+  padding: 8px 70px;
+  vertical-align: middle;
+  text-transform: capitalize;
+}
+
+.termTable:nth-child(odd) {
+  background-color: white;
+}
+
+.termTable:nth-child(even) {
+  background-color: lightgray;
+}
+
+.firstTerm {
+  background-color: rgb(36, 36, 36);
+  color: white;
+}
